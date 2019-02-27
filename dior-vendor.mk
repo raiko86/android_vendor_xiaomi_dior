@@ -25,7 +25,7 @@ PRODUCT_PACKAGES += \
     libmdmdetect \
     libTimeService
 
-# ADSP (MotoDevelopment msm8226-common)
+# ADSP (XT1068 - MPB24.65-34-3)
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/dior/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/xiaomi/dior/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
@@ -41,7 +41,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/dior/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so
 
-# Audio (MotoDevelopment msm8226-common)
+# Audio (XT1068 - MPB24.65-34-3)
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/dior/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/xiaomi/dior/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -89,7 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dior/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/xiaomi/dior/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so
 
-# Camera (MotoDevelopment msm8226-common)
+# Camera (XT1068 - MPB24.65-34-3)
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/dior/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/dior/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
@@ -137,7 +137,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dior/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/xiaomi/dior/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so
 
-# Graphics (MotoDevelopment msm8226-common)
+# Graphics (XT1068 - MPB24.65-34-3)
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/dior/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/xiaomi/dior/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
@@ -166,7 +166,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dior/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
     vendor/xiaomi/dior/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt
 
-# Media (MotoDevelopment msm8226-common)
+# Media (XT1068 - MPB24.65-34-3)
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/dior/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/xiaomi/dior/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
@@ -179,7 +179,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dior/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/xiaomi/dior/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so
 
-# Perf (MotoDevelopment msm8226-common)
+# Perf (XT1068 - MPB24.65-34-3)
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/dior/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/xiaomi/dior/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
